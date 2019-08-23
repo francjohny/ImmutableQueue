@@ -3,7 +3,7 @@
 Immutable Queue implementation using the following interface:
 
 ```
-public interface Queue[T] {
+public interface Queue<T> {
     public Queue<T> enQueue(T t);
     public Queue<T> deQueue();
     public T head();
